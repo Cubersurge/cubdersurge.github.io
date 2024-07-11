@@ -9,41 +9,6 @@ html {
 }
 
 
-
-body {
-  --sb-track-color: #f1f1f1;
-  --sb-thumb-color: #dabaa3;
-  --sb-size: 14px;
-}
-
-body::-webkit-scrollbar {
-  width: var(--sb-size)
-}
-
-body::-webkit-scrollbar-track {
-  background: var(--sb-track-color);
-  border-radius: 3px;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: var(--sb-thumb-color);
-  border-radius: 3px;
-  
-}
-
-@supports not selector(::-webkit-scrollbar) {
-  body {
-    scrollbar-color: var(--sb-thumb-color)
-                     var(--sb-track-color);
-  }
-}
-@supports not selector(::-webkit-scrollbar) {
-  body {
-    scrollbar-color: var(--sb-thumb-color)
-                     var(--sb-track-color);
-  }
-}
-
 p {
   font-family: "Montserrat", "Merriweather", serif;
   font-weight: 800;
@@ -55,7 +20,7 @@ a {
   font-family: "Montserrat", "Merriweather", serif;
   font-weight: 800;
   font-style: normal;
-  color: #ffffff;
+  color: #b3c1ff;
 }
 
 h1 {
@@ -80,7 +45,7 @@ h3 {
 }
 
 h4 {
-    font-family: "Montserrat", serif;
+  font-family: "Montserrat", serif;
   font-weight: 900;
   font-style: normal;
   color: #fff;
