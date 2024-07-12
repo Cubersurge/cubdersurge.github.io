@@ -1,0 +1,27 @@
+{
+  "background_color": "#000000",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "name": "Cubersurge",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Cubersurge",
+  "start_url": "/",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "https://cubersurge.github.io/assets/CSFavicon.png",
+      "type": "image/png",
+      "sizes": "662x662"
+    }
+  ],
+  "id": "1DSTCS",
+  "description": "--Game Landung Page--",
+  "display_override": [
+    "fullscreen",
+    "standalone",
+    "minimal-ui",
+    "window-controls-overlay",
+    "browser"
+  ]
+}
