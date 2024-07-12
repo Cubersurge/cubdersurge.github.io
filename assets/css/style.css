@@ -17,6 +17,20 @@ p {
   color: #ffffff;
 }
 
+li {
+  font-family: "Montserrat", "Merriweather", serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #ffffff;
+}
+
+ul {
+  font-family: "Montserrat", "Merriweather", serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #ffffff;
+}
+
 a {
   font-family: "Montserrat", "Merriweather", serif;
   font-weight: 800;
