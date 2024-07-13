@@ -23,6 +23,7 @@ We started with a simple idea (Into the Light) and turned it into **Cubersurge**
 
 We’d love to hear your feedback or answer any questions you have. Reach out to us:
 
-- **Email:** [your-email@example.com](mailto:1d10t1cstud10s.contact@gmail.com)
+- **Email:** [1d10t1cstud10s.contact@gmail.com](mailto:1d10t1cstud10s.contact@gmail.com)
+- **Discord** @melonmasteristaken or @bloxinoobie
 
 Thank you for playing **Cubersurge**!
