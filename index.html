@@ -4,6 +4,31 @@ title: Home
 ---
 
 <style>
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.video-wrapper {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+video {
+  width: 50%; /* adjust the width as needed */
+  height: auto;
+  border-radius: 10px;
+}
+  
 .button {
   cursor: pointer;
   position: relative;
@@ -71,6 +96,37 @@ h1 {
 </div>
 
 <h4></h4>
+
+
+<div class="container">
+  <div class="video-wrapper">
+    <video autoplay muted loop>
+      <source src="[video-url]" type="video/mp4">
+    </video>
+    <div class="overlay"><h3>Dodge</h3></div>
+  </div>
+  <p>Text on the right</p>
+</div>
+
+<div class="container">
+  <p>Text on the left</p>
+  <div class="video-wrapper">
+    <video autoplay muted loop>
+      <source src="[video-url]" type="video/mp4">
+    </video>
+    <div class="overlay"><h3>Dash</h3></div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="video-wrapper">
+    <video autoplay muted loop>
+      <source src="[video-url]" type="video/mp4">
+    </video>
+    <div class="overlay"><h3>Demolish</h3></div>
+  </div>
+  <p>Text on the right</p>
+</div>
 
 <p>Built all for free, and available soon! We are currently adding on to this new experience, as a better version of our 2 previous creations, The Shadows and Into the Light.</p>
 
