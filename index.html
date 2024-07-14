@@ -8,11 +8,14 @@ title: Home
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center; /* added to center the elements */
   margin-bottom: 20px;
+  padding: 20px; /* added padding */
 }
 
 .video-wrapper {
   position: relative;
+  flex-basis: 50%; /* added to make the video wrapper take up half the width */
 }
 
 .overlay {
@@ -24,9 +27,20 @@ title: Home
 }
 
 video {
-  width: 50%; /* adjust the width as needed */
+  width: 100%; /* changed to 100% to fill the video wrapper */
   height: auto;
   border-radius: 10px;
+}
+
+/* added media query to make it responsive */
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .video-wrapper {
+    width: 100%;
+  }
 }
   
 .button {
@@ -95,15 +109,14 @@ h1 {
   <br>
 </div>
 
-<h4></h4>
-
+<br>
 
 <div class="container">
   <div class="video-wrapper">
     <video autoplay muted loop>
       <source src="[video-url]" type="video/mp4">
     </video>
-    <div class="overlay"><h3>Dodge</h3></div>
+    <div class="overlay">Text on top of video</div>
   </div>
   <p>Text on the right</p>
 </div>
@@ -114,7 +127,7 @@ h1 {
     <video autoplay muted loop>
       <source src="[video-url]" type="video/mp4">
     </video>
-    <div class="overlay"><h3>Dash</h3></div>
+    <div class="overlay">Text on top of video</div>
   </div>
 </div>
 
@@ -123,10 +136,12 @@ h1 {
     <video autoplay muted loop>
       <source src="[video-url]" type="video/mp4">
     </video>
-    <div class="overlay"><h3>Demolish</h3></div>
+    <div class="overlay">Text on top of video</div>
   </div>
-  <p>Text on the right</p>
+  <p style="padding-left: 20px;">Text on the right</p>
 </div>
+
+<br>
 
 <p>Built all for free, and available soon! We are currently adding on to this new experience, as a better version of our 2 previous creations, The Shadows and Into the Light.</p>
 
